@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="TestNG">
+        <methods>
+          <include name="TestLogin"/>
+          <include name="test1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestNG -->
+      <class name="testNG.TestNGGroupsDemo">
+        <methods>
+          <include name="test3"/>
+          <include name="test4"/>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- testNG.TestNGGroupsDemo -->
+      <class name="testNG.FirstTest">
+        <methods>
+          <include name="teststeps"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testNG.FirstTest -->
+      <class name="ThirdTest">
+        <methods>
+          <include name="test"/>
+          <include name="setUp"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- ThirdTest -->
+      <class name="MultiplebBrowser.TestNGMultiBrowserDemo">
+        <methods>
+          <include name="test1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- MultiplebBrowser.TestNGMultiBrowserDemo -->
+      <class name="Testpriorit">
+        <methods>
+          <include name="test1"/>
+          <include name="test5"/>
+          <include name="test2"/>
+          <include name="test4"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- Testpriorit -->
+      <class name="SecondTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="close"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- SecondTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
