@@ -1,0 +1,11 @@
+PagesFactory\RegisterPage.class
+StepDefinitions\StepRegister.class
+PagesFactory\LoginPage.class
+FactorySwaglab\AjouterProduit.class
+StepDefinitions\AjouterProduit.class
+PagesFactory\CartPage.class
+PagesFactory\HomePage.class
+FactorySwaglab\Login.class
+StepDefinitions\CheckOut.class
+StepDefinitions\LoginF.class
+Stepdefswaglab\Scenarioglobal.class
