@@ -1,0 +1,7 @@
+stepdefinitions\Stepajouterprod.class
+stepdefinitions\Stepinscription.class
+stepdefinitions\Steplogin.class
+stepdefinitions\Loginout.class
+PagesFactory\LoginPage.class
+stepdefinitions\StepLogin2.class
+stepdefinitions\LoginF.class
