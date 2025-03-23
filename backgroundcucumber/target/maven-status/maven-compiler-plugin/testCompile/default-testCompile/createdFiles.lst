@@ -1,0 +1,7 @@
+outils\ElementUtiles.class
+PageFactory\Cart.class
+PageFactory\Login.class
+PageFactory\Logout.class
+Runner\TestRunner.class
+PageFactory\AjoutProd.class
+Stepdefinitions\ScenarioAll.class
